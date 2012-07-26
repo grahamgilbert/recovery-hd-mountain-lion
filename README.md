@@ -1,4 +1,4 @@
-recovery-hd-mountain-lion
+Create Mountain Lion Recovery HD
 =========================
 
-Create Mountain Lion Recovery HD
+Full details are over at <http://grahamgilbert.com/blash>

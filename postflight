@@ -1,0 +1,6 @@
+#!/bin/bash
+hdiutil attach /tmp/Recovery\ HD.dmg
+
+/tmp/dmtest ensureRecoveryPartition / /Volumes/Recovery\ HD/com.apple.recovery.boot/BaseSystem.dmg 0 0 /Volumes/Recovery\ HD/com.apple.recovery.boot/BaseSystem.chunklist
+
+hdiutil eject /Volumes/Recovery\ HD
